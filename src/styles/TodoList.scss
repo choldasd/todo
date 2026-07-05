@@ -1,0 +1,51 @@
+.todo-list-page {
+  .filters-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: var(--surface);
+    backdrop-filter: var(--glass-blur);
+    border-radius: 16px;
+    border: 1px solid var(--surface-border);
+
+    .search-wrapper {
+      flex: 1;
+      min-width: 250px;
+      position: relative;
+      
+      svg {
+        position: absolute;
+        left: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+        color: var(--text-muted);
+      }
+      
+      .input-field {
+        padding-left: 2.75rem;
+      }
+    }
+
+    .filter-group {
+      display: flex;
+      gap: 1rem;
+      
+      .input-field {
+        min-width: 150px;
+        appearance: none;
+        background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+        background-repeat: no-repeat;
+        background-position: right 1rem center;
+        background-size: 1em;
+      }
+    }
+  }
+
+  .todo-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
