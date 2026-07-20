@@ -32,6 +32,9 @@ const Navbar = () => {
             <NavLink to="/users" className={({ isActive }) => (isActive ? 'active' : '')}>
               Users
             </NavLink>
+            <NavLink to="/posts" className={({ isActive }) => (isActive ? 'active' : '')}>
+              Posts
+            </NavLink>
             
             <div className="navbar__dropdown">
               <button 

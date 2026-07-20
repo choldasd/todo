@@ -22,6 +22,8 @@ import Profile from './pages/settings/Profile';
 import ChangePassword from './pages/settings/ChangePassword';
 
 import './styles/App.scss';
+import Posts from './pages/posts/Posts';
+import SimplePosts from './pages/posts/SimplePosts';
 
 function App() {
   return (
@@ -45,6 +47,9 @@ function App() {
                 <Route path="/profile" element={<Profile />} />
                 <Route path="/change-password" element={<ChangePassword />} />
                 <Route path="/users" element={<Users />} />
+                <Route path="/posts" element={<Posts />} />
+                <Route path="/simple-posts" element={<SimplePosts />} />
+                
               </Route>
             </Routes>
           </main>

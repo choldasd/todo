@@ -4,12 +4,16 @@ import { BrowserRouter } from 'react-router-dom'
 import App from './App.jsx'
 import './styles/main.scss'
 import { TodoProvider } from './context/TodoContext.jsx'
+import { Provider } from 'react-redux'
+import { store } from './store.js'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
       <TodoProvider>
-        <App />
+        <Provider store={store}>
+          <App />
+        </Provider>
       </TodoProvider>
     </BrowserRouter>
   </React.StrictMode>,
