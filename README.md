@@ -5,8 +5,8 @@ A complete, production-ready Todo application built with React, Vite, and Contex
 ## Features
 
 - **Dashboard View**: View statistics of your tasks (Total, Pending, Completed) and quickly glance at the latest top 10 pending or completed tasks.
-- **Task Management**: Create, Edit, and Delete tasks. 
-- **Advanced Filtering & Sorting**: 
+- **Task Management**: Create, Edit, and Delete tasks.
+- **Advanced Filtering & Sorting**:
   - Real-time search by task title or description.
   - Filter tasks by status (New vs Completed).
   - Sort tasks chronologically (Newest/Oldest) or alphabetically by Status.
@@ -22,23 +22,33 @@ A complete, production-ready Todo application built with React, Vite, and Contex
 
 1. **Install Dependencies**
    Navigate to the project root directory and run:
+
    ```bash
    npm install
    ```
 
 2. **Run the Development Server**
    To start the app locally with hot-reloading:
+
    ```bash
    npm run dev
    ```
+
    The application will be accessible at `http://localhost:5173` by default.
 
 3. **Build for Production**
    To create an optimized production build:
+
    ```bash
    npm run build
    ```
+
    The built files will be output to the `/dist` directory.
+
+4. **Credentials**
+   Email: emily.johnson@x.dummyjson.com
+   Username: emilys
+   Password: emilyspass
 
 ## Technology Stack
 

@@ -13,8 +13,7 @@ const Posts = () => {
 
       <div className="todo-list">
           <ListItemTile item={{url:'simple-posts', title:'Simple Post List using DummyJSON.', description:'Using useGetPostsQuery.'}}/>
-          <ListItemTile item={{url:'simple-posts',title:'Post List using RTK Query.', description: 'Using useGetPostListQuery.'}}/>
-          <ListItemTile item={{url:'simple-posts',title:'Post List with pagination using RTK Query.', description: 'Using useGetPostListWithPaginationQuery.'}}/>
+          <ListItemTile item={{url:'advance-posts',title:'Post List with pagination using RTK Query.', description: 'Using useGetPostListWithPaginationQuery.'}}/>
           {/* <div className="glass-panel" style={{padding: '3rem', textAlign: 'center'}}>
             <p style={{color: 'var(--text-muted)'}}>No tasks match your filters.</p>
           </div> */}
